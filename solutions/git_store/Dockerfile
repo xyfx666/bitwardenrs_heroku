@@ -7,6 +7,7 @@ RUN apk add --no-cache inotify-tools
 RUN apk add --no-cache bash
 RUN apk add --no-cache unison
 RUN apk add --no-cache incron
+RUN apk add --no-cache sqlite
 
 ENV _BAK_FILE_REPO=/bak_file
 
